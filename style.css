@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url("imagenes/Fondo.jpg");
+    background-size: cover;
+  background-repeat: repeat;
+}
+/*Estilos para el menú de navegacion*/
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+  }
+  ul li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  a {
+    color: rgb(244, 234, 234);
+    text-decoration: none;
+    font-size: 25px;
+  }
+  /*Acerca de*/
+  .menu2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 1);
+    height: 100px;
+  }
+  .titulo2 {
+    color: rgb(16, 138, 245);
+    font-size: 70px;
+    font-weight: 1000;
+    font-family: sans-serif;
+  }
+
+
+/*Estilo de la pagina de acerca de mi*/
+.sobre_mi{
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 2px;
+}
